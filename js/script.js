@@ -25,10 +25,10 @@ button.addEventListener('click', function() {
         price = price - seniorDiscount;
     }
     
-    console.log(price.toFixed(2));
+    console.log(price);
 
     
-    output.innerHTML = `Il biglietto costa $ {}`
+    output.innerHTML = `Il biglietto costa ${price.toFixed(2)}`
 
 });
 
